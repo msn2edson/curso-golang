@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 	"time"
 )
 
 func main() {
+	fmt.Println(runtime.GOARCH)
+
 	// Declara um canal e um timer
 	ch := make(chan int)
 	timer := time.NewTimer(time.Second)
