@@ -15,6 +15,6 @@ func main() {
 	resultado := fatorial(5)
 	fmt.Println(resultado)
 
-	resultado2 := fatorial(-4)
-	fmt.Println(resultado2)
+	//resultado2 := fatorial(-4)
+	//fmt.Println(resultado2)
 }

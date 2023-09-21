@@ -1,4 +1,3 @@
-module github.com/msn2edson
 
 go 1.21.0
 
